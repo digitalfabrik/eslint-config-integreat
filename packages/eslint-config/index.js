@@ -40,11 +40,19 @@ module.exports = {
     "flowtype/no-types-missing-file-annotation": 2,
     "flowtype/no-weak-types": 2,
     "flowtype/object-type-delimiter": [2, "comma"],
-    "flowtype/require-parameter-type": 2,
+    "flowtype/require-parameter-type": [
+      2,
+      {
+        excludeArrowFunctions: true
+      }
+    ],
     "flowtype/require-return-type": [
       2,
       "always",
-      { annotateUndefined: "never" }
+      {
+        excludeArrowFunctions: true,
+        annotateUndefined: "never"
+      }
     ],
     "flowtype/require-valid-file-annotation": 2,
     "flowtype/semi": [2, "never"],
