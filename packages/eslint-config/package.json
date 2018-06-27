@@ -10,17 +10,17 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": { },
+  "scripts": {},
   "files": [
     "index.js"
   ],
   "devDependencies": {
     "babel-eslint": "~8.2.3",
     "eslint": "~4.19.1",
-    "eslint-plugin-prefer-object-spread": "~1.2.1",
     "eslint-config-standard": "~11.0.0",
-    "eslint-plugin-standard": "~3.0.1",
-    "eslint-plugin-flowtype": "^2.46.3"
+    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-prefer-object-spread": "~1.2.1",
+    "eslint-plugin-standard": "~3.0.1"
   },
   "peerDependencies": {
     "eslint": ">=4.19.1"
