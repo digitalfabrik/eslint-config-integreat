@@ -4,6 +4,9 @@
   "description": "ESLint config for integreat",
   "license": "MIT",
   "author": "Integreat",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=0.10.0"
   },
