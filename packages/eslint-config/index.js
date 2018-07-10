@@ -38,7 +38,7 @@ module.exports = {
     "flowtype/generic-spacing": [2, "never"],
     "flowtype/no-primitive-constructor-types": 2,
     "flowtype/no-types-missing-file-annotation": 2,
-    "flowtype/no-weak-types": 2,
+    "flowtype/no-weak-types": 1,
     "flowtype/object-type-delimiter": [2, "comma"],
     "flowtype/require-parameter-type": [
       2,
@@ -51,7 +51,8 @@ module.exports = {
       "always",
       {
         excludeArrowFunctions: true,
-        annotateUndefined: "never"
+        annotateUndefined: "never",
+        excludeMatching: ["^render$"]
       }
     ],
     "flowtype/require-valid-file-annotation": 2,
