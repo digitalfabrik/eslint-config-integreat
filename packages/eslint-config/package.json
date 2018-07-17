@@ -1,6 +1,6 @@
 {
   "name": "@integreat-app/eslint-config",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "ESLint config for integreat",
   "license": "MIT",
   "author": "Integreat",
@@ -14,8 +14,6 @@
   "files": [
     "index.js"
   ],
-  "devDependencies": {
-  },
   "peerDependencies": {
     "babel-eslint": "~8.2.3",
     "eslint": "~5.1.0",
