@@ -16,6 +16,7 @@ module.exports = {
     }
   },
   rules: {
+    "max-len": ["warn", { "code": 120 }],
     "prefer-object-spread/prefer-object-spread": "error",
     "arrow-parens": ["error", "as-needed"],
     "no-extra-bind": "error",
