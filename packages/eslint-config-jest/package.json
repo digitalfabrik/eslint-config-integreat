@@ -15,8 +15,8 @@
     "index.js"
   ],
   "peerDependencies": {
-    "babel-eslint": "~8.2.3",
-    "eslint": "~5.1.0",
-    "eslint-plugin-jest": "~21.17.0"
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-plugin-jest": "*"
   }
 }

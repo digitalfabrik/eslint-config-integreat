@@ -15,11 +15,11 @@
     "index.js"
   ],
   "peerDependencies": {
-    "babel-eslint": "~8.2.3",
-    "eslint": "~5.1.0",
-    "eslint-config-standard": "~11.0.0",
-    "eslint-plugin-flowtype": "^2.46.3",
-    "eslint-plugin-prefer-object-spread": "~1.2.1",
-    "eslint-plugin-standard": "~3.1.0"
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-prefer-object-spread": "*",
+    "eslint-plugin-standard": "*"
   }
 }
