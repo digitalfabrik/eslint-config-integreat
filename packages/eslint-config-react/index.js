@@ -14,7 +14,9 @@ module.exports = {
     "react/prefer-es6-class": ["error", "always"],
     "react/no-deprecated": "error",
     "react/no-direct-mutation-state": "error",
-    "react/no-typos": "error"
+    "react/no-typos": "error",
+    "react/no-did-mount-set-state": "warn",
+    "react/no-did-update-set-state": "warn"
   },
   overrides: [
     {
