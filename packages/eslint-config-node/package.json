@@ -1,0 +1,25 @@
+{
+  "name": "@integreat-app/eslint-config-node",
+  "version": "0.2.1",
+  "description": "ESLint config for integreat",
+  "license": "MIT",
+  "author": "Integreat",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {},
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-prefer-object-spread": "*",
+    "eslint-plugin-standard": "*"
+  }
+}

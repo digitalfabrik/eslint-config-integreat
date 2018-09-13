@@ -1,5 +1,5 @@
 {
-  "name": "@integreat-app/eslint-config",
+  "name": "@integreat-app/eslint-config-babel",
   "version": "0.2.1",
   "description": "ESLint config for integreat",
   "license": "MIT",
@@ -18,7 +18,6 @@
     "babel-eslint": "*",
     "eslint": "*",
     "eslint-config-standard": "*",
-    "eslint-plugin-flowtype": "*",
     "eslint-plugin-prefer-object-spread": "*",
     "eslint-plugin-standard": "*"
   }

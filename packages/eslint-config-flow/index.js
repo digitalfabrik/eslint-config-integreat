@@ -16,23 +16,6 @@ module.exports = {
     }
   },
   rules: {
-    "max-len": ["warn", { "code": 120 }],
-    "prefer-object-spread/prefer-object-spread": "error",
-    "arrow-parens": ["error", "as-needed"],
-    "no-extra-bind": "error",
-    "prefer-template": "error",
-    "no-loop-func": "error",
-    curly: ["error", "all"],
-    "prefer-const": "error",
-    "jsx-quotes": "error",
-    indent: [
-      "error",
-      2,
-      {
-        SwitchCase: 1,
-        ignoredNodes: ["JSXElement *"]
-      }
-    ],
     "flowtype/boolean-style": [2, "boolean"],
     "flowtype/define-flow-type": 1,
     "flowtype/delimiter-dangle": [2, "never"],
@@ -56,7 +39,11 @@ module.exports = {
         excludeMatching: ["^render$"]
       }
     ],
-    "flowtype/require-valid-file-annotation": 2,
+    "flowtype/require-valid-file-annotation": [
+      2,
+      "always",
+      {"annotationStyle": "line"}
+    ],
     "flowtype/semi": [2, "never"],
     "flowtype/space-after-type-colon": [2, "always"],
     "flowtype/space-before-generic-bracket": [2, "never"],
@@ -64,22 +51,11 @@ module.exports = {
     "flowtype/type-id-match": [2, "^([A-Z][a-z0-9]+)+Type$"],
     "flowtype/union-intersection-spacing": [2, "always"],
     "flowtype/use-flow-type": 1,
-    "flowtype/valid-syntax": 1
+    "flowtype/valid-syntax": 1,
+    "flowtype/newline-after-flow-annotation": [
+      2,
+      "always"
+    ]
   },
-  overrides: [
-    {
-      files: ["*.js"],
-      excludedFiles: ["*.spec.js", "**/__mocks__/*.js"],
-      rules: {
-        "no-magic-numbers": [
-          "error",
-          {
-            ignore: [-1, 0, 1, 2],
-            ignoreArrayIndexes: true
-          }
-        ]
-      }
-    }
-  ],
-  plugins: ["prefer-object-spread", "flowtype"]
+  plugins: ["flowtype"]
 };
