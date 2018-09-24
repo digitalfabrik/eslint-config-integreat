@@ -10,11 +10,6 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: "module"
   },
-  settings: {
-    flowtype: {
-      onlyFilesWithFlowAnnotation: true
-    }
-  },
   rules: {
     "max-len": ["warn", { "code": 120 }],
     "prefer-object-spread/prefer-object-spread": "error",
