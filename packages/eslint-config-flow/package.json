@@ -17,7 +17,6 @@
   "peerDependencies": {
     "babel-eslint": "*",
     "eslint": "*",
-    "eslint-plugin-flowtype": "*",
-    "eslint-plugin-prefer-object-spread": "*"
+    "eslint-plugin-flowtype": "*"
   }
 }
