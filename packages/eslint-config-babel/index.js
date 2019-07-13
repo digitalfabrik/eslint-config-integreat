@@ -15,6 +15,7 @@ module.exports = {
     "prefer-object-spread/prefer-object-spread": "error",
     "arrow-parens": ["error", "as-needed"],
     "no-extra-bind": "error",
+    "object-curly-spacing": ["error", "always"],
     "prefer-template": "error",
     "no-loop-func": "error",
     curly: ["error", "all"],
