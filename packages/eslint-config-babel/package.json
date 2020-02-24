@@ -17,7 +17,7 @@
   "peerDependencies": {
     "babel-eslint": "*",
     "eslint": "*",
-    "eslint-config-standard": "*",
+    "eslint-config-standard": "^14.1.0",
     "eslint-plugin-prefer-object-spread": "*",
     "eslint-plugin-standard": "*"
   }
