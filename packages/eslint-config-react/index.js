@@ -20,7 +20,7 @@ module.exports = {
     "react/jsx-closing-tag-location": "off",
     "react/jsx-closing-bracket-location": "off",
     "react/jsx-first-prop-new-line": "off",
-    "react/react/jsx-handler-names": "off"
+    "react/jsx-handler-names": "off"
   },
   overrides: [
     {
