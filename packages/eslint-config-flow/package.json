@@ -16,7 +16,9 @@
   ],
   "peerDependencies": {
     "babel-eslint": "*",
-    "eslint": "*",
-    "eslint-plugin-flowtype": "*"
+    "eslint": "*"
+  },
+  "dependencies": {
+    "eslint-plugin-flowtype": "^4.6.0"
   }
 }

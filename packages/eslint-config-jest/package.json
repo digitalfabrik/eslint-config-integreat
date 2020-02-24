@@ -16,7 +16,9 @@
   ],
   "peerDependencies": {
     "babel-eslint": "*",
-    "eslint": "*",
-    "eslint-plugin-jest": "*"
+    "eslint": "*"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^23.8.0"
   }
 }

@@ -16,8 +16,10 @@
   ],
   "peerDependencies": {
     "babel-eslint": "*",
-    "eslint": "*",
+    "eslint": "*"
+  },
+  "dependencies": {
     "eslint-config-standard-react": "^9.2.0",
-    "eslint-plugin-react": "*"
+    "eslint-plugin-react": "^7.18.3"
   }
 }
