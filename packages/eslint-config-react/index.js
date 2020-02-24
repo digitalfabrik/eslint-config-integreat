@@ -16,7 +16,11 @@ module.exports = {
     "react/no-direct-mutation-state": "error",
     "react/no-typos": "error",
     "react/no-did-mount-set-state": "warn",
-    "react/no-did-update-set-state": "warn"
+    "react/no-did-update-set-state": "warn",
+    "react/jsx-closing-tag-location": "off",
+    "react/jsx-closing-bracket-location": "off",
+    "react/jsx-first-prop-new-line": "off",
+    "react/react/jsx-handler-names": "off"
   },
   overrides: [
     {
