@@ -1,6 +1,6 @@
 {
   "name": "@integreat-app/eslint-config-flow",
-  "version": "0.3.2",
+  "version": "0.6.0",
   "description": "ESLint config for integreat",
   "license": "MIT",
   "author": "Integreat",
@@ -16,7 +16,9 @@
   ],
   "peerDependencies": {
     "babel-eslint": "*",
-    "eslint": "*",
-    "eslint-plugin-flowtype": "*"
+    "eslint": "*"
+  },
+  "dependencies": {
+    "eslint-plugin-flowtype": "^4.6.0"
   }
 }

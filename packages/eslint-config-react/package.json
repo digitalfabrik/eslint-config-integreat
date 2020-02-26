@@ -1,6 +1,6 @@
 {
   "name": "@integreat-app/eslint-config-react",
-  "version": "0.3.3",
+  "version": "0.6.1",
   "description": "ESLint config for integreat",
   "license": "MIT",
   "author": "Integreat",
@@ -16,8 +16,10 @@
   ],
   "peerDependencies": {
     "babel-eslint": "*",
-    "eslint": "*",
-    "eslint-config-standard-react": "*",
-    "eslint-plugin-react": "*"
+    "eslint": "*"
+  },
+  "dependencies": {
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-react": "^7.18.3"
   }
 }
